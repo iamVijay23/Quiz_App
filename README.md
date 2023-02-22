@@ -37,4 +37,11 @@ You can customize the score messages by modifying the scoreMessages object in th
 
 This quiz app was built by Vijaysingh Maurya Under the Sync-intern's. 
 
+
 ## Screenshots
+![Quiz](https://user-images.githubusercontent.com/52886042/220703325-93814ccc-86c2-4636-b098-ad1466da2c06.png)
+![Question](https://user-images.githubusercontent.com/52886042/220703868-38c5c410-e649-466b-ac58-7533a2501a9c.png)
+
+
+![Answer](https://user-images.githubusercontent.com/52886042/220703468-685a79c3-ed2f-4c1b-8ba2-2be8da3e1517.png)
+
