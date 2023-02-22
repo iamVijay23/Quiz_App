@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url("bg.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 80px 90px;
+    width: 900px;
+    min-height: 350px;
+    background-color: aliceblue;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    display: flex;
+}
+
+.left,
+.right {
+    width: 50%;
+}
+
+.left img {
+    height: 300px;
+    width: 300px;
+}
+
+.left img:hover {
+    transform: translateY(-15px);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.right h2 {
+    color: black;
+    font-size: 30px;
+}
+
+.right h3 {
+    color: black;
+    margin: 20px auto 10px;
+    font-size: 24px;
+}
+
+.right ul {
+    color: black;
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: 600;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.right ul li {
+    margin-top: 5px;
+}
+
+.right a {
+    background-color: #201e20;
+    border-radius: 100px;
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 25px;
+    text-decoration: none;
+}
+
+/*Quiz_App  Questions bank Start Here  */
+
+.quiz-container {
+    width: 600px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.quiz-header {
+    padding: 4rem;
+}
+
+h2 {
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label{
+    cursor: pointer;
+}
+
+button{
+    background-color: #201e20;
+    color: #fff;
+    display: block;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-family: inherit;
+    padding: 1.3rem ;
+}
+
+
+button:hover{
+    background-color:#454343;
+}
+
+button:focus{
+    outline: none;
+    background-color: #44b927;
+}
+/*Quiz_App  Questions bank End  Here  */
+
+/* Media Queries start Here  */
+
+@media screen and (max-width:768px) {
+    .left {
+        display: none;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+
+}
+
+/* media query end */
