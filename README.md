@@ -6,11 +6,10 @@ This is a responsive quiz application built using HTML, CSS, and JavaScript. It 
 
 # Features
 
-1) Randomly generated questions from an array of questions.
+1) Questions from an array of questions.
 2) Multiple-choice answers for each question.
-3) Feedback on whether the selected answer is correct or incorrect.
-4) A running score that updates with each answer.
-5) An end screen displaying the final score and a message based on the score.
+3) A running score that updates with each answer.
+4) An end screen displaying the final score and a message based on the score.
 ## Installation
 
 1) Clone the repository or download the ZIP file.
